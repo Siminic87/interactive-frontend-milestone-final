@@ -52,14 +52,14 @@ In this section, you should mention all of the languages, frameworks, libraries,
     2.	Try to scroll down to “Enter your URL here”, select individual page and verify that data display of all charts only shows data for the selected page.
     3.	OR try to scroll down to “Enter your URL here”, select "AlL", click on single bar/pie slice in charts and verify that data display of all charts only displays results for the page that was clicked on.
 
-Manual testing revealed that the data for individual websites was integrated and visualised seamlessly. The page as a whole is accessible on all devices and all major browsers and looks virtually the same on different browsers. 
+Manual testing revealed that the data for individual websites was integrated and visualised seamlessly, whereby giving an efficient overview of important SEO data for one page. The page as a whole is accessible on all devices and all major browsers and looks virtually the same on different browsers. 
 
 2.	Comparing of SEO Data for multiple websites
     1. Go to SEO URL-Checker page
     2. Try to select "All" websites and verify that charts are displaying correctly for all websites.
     3. OR try to scroll down to “Enter your URL here”, select "All", click on multiple bar/pie slice in charts (e.g. a.com & b.com) and verify that data display of all charts only displays results for the pages that were clicked on.
 
-Manual testing revealed that the data for comparing multiple websites was integrated and visualised seamlessly. The page as a whole is accessible on all devices and all major browsers and looks virtually the same on different Browsers. 
+Manual testing revealed that the data for comparing multiple websites was integrated and visualised seamlessly, whereby giving an efficient overview of important SEO data for one page and enabling the user to compare his page to others. The page as a whole is accessible on all devices and all major browsers and looks virtually the same on different Browsers. 
 
 ## Deployment
 Uploaded project to github repository by using commands:
