@@ -10,7 +10,7 @@ SEO URL-Checker is the best way to assess SEO competitiveness of websites becaus
 - As a user type, I want to get a quick overview of important statistics that affect my website’s SEO
 - As a user type, I want to be able to compare my website’s SEO metrics to that of competitors.
 
-Mockup:
+### Mockup
 ![SEO URL-Checker Mockup](static/img/SEO-URL-Checker-Mockup.jpg)
 
 ## Features
@@ -21,7 +21,7 @@ SEO URL-Checker has various features that intend to inform users about statistic
 - Website Selector - allows users to select one or multiple websites for which they want to review data. 
 - Data Table – Allows users to see if their websites are online (“Response Code”) and how spammy they are considered to be in the eyes of search engines (“Spam Score”).
 - Charts – Show users a number of visualisations concerning the most important statistics for SEO (“Page Authority”, “Domain Authority”, “Spam Score”, “Links”, “Equity Links”, “MOZ Rank”). All charts are ordered and coloured in such a way that each website has the same colour and appears in the same order across all charts.
-- Chart Descriptions – Each chart has a description underneath it explaining the respective metric that is displayed for the pages.
+- Chart Headings & Descriptions – Each chart has a heading above it and description underneath it, highlighting and explaining the respective metric that is displayed for the pages.
 
 All features are fully responsive on mobile devices (incl. tablets and smartphones). 
 
@@ -32,18 +32,18 @@ All features are fully responsive on mobile devices (incl. tablets and smartphon
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- HTML
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - The project uses HTML to allow structuring and display of the information presented via MarketingMan.ie.
-- CSS
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
     - The project uses CSS to visually design the data that is being transmitted via HTML.
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/docs/3.3/)
     - The project uses the Bootstrap framework (v. 3.3.7) to save time in development by relying on standardized HTML and CSS elements that can be found in the library.
-- javascript
-    - Logic for rendering of graphs is written in javascript coding language.
-- D3 & DC
-    - The project uses the D3 and DC javascript libraries for the purpose of being able to write the logic for visualising the SEO data on the site more easily.
-- NDX crossfilter
-    - NDX crossfilter is used for grouping of data do that different charts can be compared based on results for selected data entries.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - The logic for the rendering graphs is written in javascript coding language.
+- [D3](https://d3js.org/) & [DC](https://dc-js.github.io/dc.js/)
+    - The project uses the D3 and DC JavaScript libraries for the purpose of being able to write the logic for visualising the SEO data on the site more easily.
+- [Crossfilter](https://github.com/crossfilter/crossfilter)
+    - The JavaScript library "Crossfilter" is used for grouping of data do that different charts can be compared based on results for selected data entries.
 
 ## Testing
 
