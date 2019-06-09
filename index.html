@@ -20,7 +20,7 @@
 </head>
 
 <body>
-
+	<header>
 		<!-- Navbar -->
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
@@ -33,6 +33,79 @@
 		</nav>
 		<!-- /.navbar -->
 
+		<!-- Charts -->
+		<section class="section grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<p class="section-heading enter-url">Enter your URL(s) here:</p>
+					</div>
+					<div class="col-xs-12 col-sm-8">
+						<div id="website-selector"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+
+	<main>
+		<section class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<h4 class="h4-padding">Website Status</h4>
+						<div class="table" id="http-status"></div>
+						<span><p>*List of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">HTTP response codes</a></p></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<h4 class="text-center">Page Authority</h4>
+						<div id="page-authority" class="custom-chart"></div>
+						<span><p>*Page Authority (PA) is a score developed by Moz that predicts how well a specific page will rank on search engine result pages (SERP). Page Authority scores range from one to 100, with higher scores corresponding to a greater ability to rank.</p></span>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<h4 class="text-center">Domain Authority</h4>
+						<div id="domain-authority" class="custom-chart"></div>
+						<span><p>*Domain Authority (DA) is a search engine ranking score developed by Moz that predicts how well a website will rank on search engine result pages (SERPs). A Domain Authority score ranges from one to 100, with higher scores corresponding to a greater ability to rank.</p></span>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<h4 class="text-center">MOZ Rank</h4>
+						<div id="moz-rank" class="custom-chart"></div>
+						<span><p>*MozRank is a term taken from SEOmoz's logarithmically scaled 10-point measurement of popularity of a given webpage. It is used to calculate the link popularity in comparison to others.</p></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<h4 class="text-center">Links</h4>
+						<div id="links" class="custom-chart"></div>
+						<span><p>*Total number of links linking to site.</p></span>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<h4 class="text-center">Equity Links</h4>
+						<div id="equity-links" class="custom-chart"></div>
+						<span><p>*Total number of "do-follow" links linking to site.</p></span>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<h4 class="text-center">Spam Score</h4>
+						<div id="trust-score" class="custom-chart"></div>
+						<span><p>*MozTrust measures link trust. Receiving links from sources with inherent trust—such as the homepages of major university websites or certain government web pages—is a strong trust endorsement. We score MozTrust on a logarithmic scale between 0 and 10.</p></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.charts -->
+	</main>
 </body>
 
 <!-- Footer -->
